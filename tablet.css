@@ -1,0 +1,52 @@
+@media only screen and (min-width:426px) ,(max-width: 770px){
+    .navbar {
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        display: flex;
+        width: 100%;
+        height: 70px;
+        background: rgba(26, 145, 181, 0.847);
+    
+    }
+    
+    .navbar h3{
+        color: white;
+        justify-content: center;
+        padding: 0;
+        margin: 1rem 0 0 1.25rem;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    .navbar ul {
+        display: flex;
+        list-style: none;
+        width: 100%;
+        justify-content: right;
+        padding: 0;
+        margin: 1.7rem 0 0.5px 0;
+    }
+    
+    .navbar li{
+        margin: 0 0 0.5rem;
+        padding: 0 0 1rem;
+        font-size: 0.95rem;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        letter-spacing: 2px;
+        position: relative;
+        padding: 0 0 0.2rem 0;
+        margin: 0 1rem 1rem 1rem;
+        font-family: 'Lato', sans-serif;
+        
+    }
+    section{
+        width: 100%;
+        height: 100vh;
+    }
+
+}
+

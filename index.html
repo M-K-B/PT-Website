@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link href="tablet.css" rel="stylesheet">
+    <link href="laptop.css" rel="stylesheet">
+    <link rel="stylesheet" href="photoswipe/dist/photoswipe.css">
+    <title>AK Fitness</title>
+
+</head>
+<body>
+    
+        <nav class='navbar'>
+            <h3 ><a href="#home">AK Fitness</a></h3>
+
+            
+            <ul>  
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    
+
+    <div class='container'>
+
+        
+        <section id="home">
+                        <h3>AK FITNESS</h3>
+                        <p>By Anthony Kimera</p>
+        </section>
+        
+
+        <section id="about">
+            <div id="aboutScreen">
+            <p>Anthony Kimera
+                Sportsperson
+                Sport and exercise science
+                Qualified level 3 PT
+                GYM Instructor
+                Level 1 football coach⚽️. #ak_4fitness</p>
+            <p>Click here to view my gallery</p>
+            <a href="#gallery"><img src="/resources/camera.png" style="width: 50px ;"></a>
+                </div>
+        </section>
+
+        <section id="gallery">
+                <div id="my-gallery">
+                    <img src="/resources/c1.png">
+                    <img src="/resources/c2.png">
+                    <img src="/resources/c3.png" style="width: 140px;">
+                    <img src="/resources/ant1.JPG">
+                </div>
+            
+        </section>
+
+        <section id="contact">
+
+            <div id="social">
+                <a href="https://instagram.com/ak_4fitness?igshid=YmMyMTA2M2Y=" alt=""><img src="/resources/insta.png" style="width: 50px;"></a>
+                <a href="#" alt=""><img src="/resources/tiktok.webp" style="width: 50px;"></a>
+                <a href="#" alt=""><img src="/resources/snap.png" style="width: 50px;"></a>
+            </div>
+            <h3>or</h3>
+            <p>Email at:</p>
+            <h1>Akfitness@icloud.com</h1>
+            
+            
+
+        </section>
+     
+    </div>    
+    <script type="module">
+        import PhotoSwipeLightbox from '/photoswipe/photoswipe-lightbox.esm.js';
+const options = {
+  gallery: '#gallery--responsive-images',
+  children: 'a',
+  pswpModule: () => import('/photoswipe/photoswipe.esm.js')
+};
+const lightbox = new PhotoSwipeLightbox(options);
+lightbox.init();
+        </script>
+
+    
+
+
+</body>
+</html>
