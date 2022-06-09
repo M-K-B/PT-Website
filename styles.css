@@ -120,11 +120,10 @@ h3 a{
     color: white;
 }
 
-#my-gallery ul li{
+#my-gallery ol li{
+  padding-top: 20px;
   list-style: none;
   text-decoration: none;
   display: inline-block;
   position: relative;
 }
-
-

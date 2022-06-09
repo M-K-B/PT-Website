@@ -1,0 +1,85 @@
+@media only screen and (min-width: 1025px){
+    .navbar {
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        display: flex;
+        width: 100%;
+        height: 85px;
+        background: rgba(26, 145, 181, 0.847);
+    
+    }
+    
+    .navbar h3{
+        color: white;
+        justify-content: center;
+        padding: 0;
+        margin: 1rem 0 0 1.25rem;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.5rem;
+    }
+    
+    .navbar ul {
+        display: flex;
+        list-style: none;
+        width: 100%;
+        justify-content: right;
+        padding: 0;
+        margin: 1.7rem 0 0.5px 0;
+    }
+    
+    .navbar li{
+        margin: 0 0 0.4rem;
+        padding: 0 0 1rem;
+        font-size: 0.95rem;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        letter-spacing: 2px;
+        position: relative;
+        padding: 0 0 0.2rem 0;
+        margin: 0 1rem 1rem 1rem;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.25rem;
+        
+    }
+    section{
+        width: 100%;
+        height: 120vh;
+    }
+    #my-gallery{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        border-radius: 40px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+        width: 90%;
+        height: 70%;
+    }
+    
+
+    #home h3 {
+        font-size: 8rem;
+    }
+
+    section p{
+        font-size: 1rem;
+    }
+
+
+    iframe.instagram-media {
+        max-width: 120% !important;
+        width: 90% !important;
+        min-width: auto !important;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+      }
+      
+
+}
+
