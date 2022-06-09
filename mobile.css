@@ -1,0 +1,124 @@
+@media (min-width: 320px) and (max-width: 767px) {
+
+
+
+    * {
+        box-sizing: border-box;
+        scrollbar-color: transparent transparent; /* thumb and track color */
+        scrollbar-width: 0px;
+      }
+      
+      *::-webkit-scrollbar {
+        width: 0;
+      }
+      
+      *::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      
+      *::-webkit-scrollbar-thumb {
+        background: transparent;
+        border: none;
+      }
+      
+      * {
+        -ms-overflow-style: none;
+      }
+      
+    .navbar {
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        display: flex;
+        width: 100%;
+        height: 70px;
+        background: rgba(26, 145, 181, 0.847);
+    
+    }
+    
+    .navbar h3{
+        color: white;
+        justify-content: center;
+        padding: 0;
+        margin: 1rem 0 0 1.25rem;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    .navbar ul {
+        display: flex;
+        list-style: none;
+        width: 100%;
+        justify-content: right;
+        padding: 0;
+        margin: 1.7rem 0 0.5px 0;
+    }
+    
+    .navbar li{
+        margin: 0 0 0.5rem;
+        padding: 0 0 1rem;
+        font-size: 0.75rem;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        letter-spacing: 3px;
+        position: relative;
+        padding: 0 0 0.2rem 0;
+        margin: 0 0.2rem;
+        font-family: 'Lato', sans-serif;
+        height: 20px;
+        
+    }   
+
+    #my-gallery{
+        list-style: none;
+        text-decoration: none;
+        overflow-y: scroll;
+        display: inline;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        margin-top: 95px;
+        border-radius: 40px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+        width: 90%;
+        height: 80%;
+        perspective: 100px;
+
+        
+
+        
+    }
+    #my-gallery ol li{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 35px 0px 0px;
+        border-radius: 40px;
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+    }
+    #aboutScreen{
+        margin-top: 70px;
+    }
+    section{
+        height: 100vh;
+    }
+    #home h3 {
+        font-size: 4rem;
+    }
+
+    iframe.instagram-media {
+        max-width: 100% !important;
+        width: 100% !important;
+        min-width: auto !important;
+        position: relative;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+      }
+}
+
