@@ -69,6 +69,7 @@
         font-size: 1rem;
     }
 
+<<<<<<< HEAD
     #aboutScreen{
         width: 75%;
         justify-content: center;
@@ -77,6 +78,8 @@
         height: auto;
     }
 
+=======
+>>>>>>> 5d1e06eb12d8d2a4df68f0323d8e8f1c74297613
 
     iframe.instagram-media {
         max-width: 120% !important;
@@ -87,6 +90,7 @@
         align-items: center;
         padding: 30px;
       }
+<<<<<<< HEAD
 
     #my-gallery {
 
@@ -95,6 +99,9 @@
     }
       
     
+=======
+      
+>>>>>>> 5d1e06eb12d8d2a4df68f0323d8e8f1c74297613
 
 }
 
