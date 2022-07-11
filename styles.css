@@ -2,6 +2,10 @@
     font-family: 'Lato', sans-serif;
     src: url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap');
 }
+@font-face {
+  font-family: 'Kosugi Maru', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+}
 
 
 body{
@@ -83,6 +87,7 @@ section{
 #about{
     background-color: white;
 }
+
 #gallery{
     background-color: white;
 }
@@ -91,7 +96,7 @@ section{
     background-color: white;
     font-family: 'Lato', sans-serif;
 }
-section{
+section p{
     font-family: 'Lato', sans-serif;
 }
 
@@ -126,4 +131,42 @@ h3 a{
   text-decoration: none;
   display: inline-block;
   position: relative;
+}
+
+
+#client{
+  height: 10%;
+}
+#client input[type]{
+
+  background-color: rgba(26, 145, 181, 0.847);
+
+  
+  
+}
+
+#avaTop{
+  width: 30%;
+}
+
+label{
+
+    margin: 5px;
+}
+
+
+#ava input[type=checkbox]{
+
+  margin: 10px;
+}
+
+#avabottom label{
+
+  margin: 30px;
+}
+
+
+#avabottom input[type=checkbox]{
+
+  margin: 10px 70px 10px 70px;
 }

@@ -65,8 +65,16 @@
         font-size: 8rem;
     }
 
+    #about{
+        margin: auto;
+        width: 60%;
+        align-content: center;
+    }
+
+
     section p{
         font-size: 1rem;
+        
     }
 
 

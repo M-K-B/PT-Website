@@ -1,0 +1,32 @@
+ <div id="ava">
+
+                    
+                        <h4>Avalibity</h4>                       
+                        <input type="checkbox" id="monday" name="monday" value="monday"> 
+                        <label for="monday">Monday</label><br>
+        
+                        <input type="checkbox" id="Tuesday" name="Tuesday" value="Tuesday">
+                        <label for="Tuesday">Tuesday</label><br>
+
+                        <input type="checkbox" id="Wednesday" name="Wednesday" value="Wednesday">
+                        <label for="Wednesday">Wednesday</label><br>
+                        
+
+                        <input type="checkbox" id="Thursday" name="Thursday" value="Thursday">
+                        <label for="Thursday">Thursday</label><br>
+
+                        <input type="checkbox" id="Friday" name="Friday" value="Friday">
+                        <label for="Friday">Friday</label><br>
+
+                        <input type="checkbox" id="Saturday" name="Saturday" value="Saturday">
+                        <label for="Saturday">Saturday</label><br>
+
+                        <input type="checkbox" id="Sunday" name="Sunday" value="Sunday">
+                        <label for="Sunday">Sunday</label><br>
+
+
+                        <div id="avabottom">
+                                <label for="morning">Morning</label>                                       <label for="afternoon">Afternoon</label>                                                                <label for="evening">Evening </label><br>
+                                <label for="morning">6am - 11am</label>                                         <label for="afternoon">12pm - 5pm</label>                                                            <label for="evening">6pm - 10pm</label><br>
+                                <input type="checkbox" id="morning" name="morning" value="morning">         <input type="checkbox" id="afternoon" name="afternoon" value="afternoon">                     <input type="checkbox" id="evening" name="evening" value="evening"><br>
+                        </div>
