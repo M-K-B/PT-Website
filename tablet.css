@@ -84,6 +84,18 @@
 
      #aboutScreen{
         margin-top: 70px;
+<<<<<<< HEAD
+        padding: 20px;
+
+    }
+
+    #about{
+        width: 80%;
+        justify-content: center;
+        margin: auto;
+
+=======
+>>>>>>> 5d1e06eb12d8d2a4df68f0323d8e8f1c74297613
     }
     iframe.instagram-media {
         max-width: 100% !important;
@@ -95,5 +107,9 @@
         align-items: center;
       }
       
+<<<<<<< HEAD
+
+=======
+>>>>>>> 5d1e06eb12d8d2a4df68f0323d8e8f1c74297613
 }
 

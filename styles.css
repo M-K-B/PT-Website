@@ -7,6 +7,11 @@
   src: url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
 }
 
+@font-face {
+  font-family: 'Red Hat Display', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap');
+}
+
 
 body{
     background-color: white;
@@ -14,6 +19,7 @@ body{
     height: 100vh;
     overflow-x: hidden;
 }
+
 
 .container {
 
@@ -124,7 +130,14 @@ h3 a{
     text-decoration: none;
     color: white;
 }
+<<<<<<< HEAD
+#my-gallery h5 {
+  font-family: 'Red Hat Display', sans-serif;
+        
+}
+=======
 
+>>>>>>> 5d1e06eb12d8d2a4df68f0323d8e8f1c74297613
 #my-gallery ol li{
   padding-top: 20px;
   list-style: none;
